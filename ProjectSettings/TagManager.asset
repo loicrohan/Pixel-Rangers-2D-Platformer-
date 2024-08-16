@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - fruit
+  - trap
+  - platform
+  - BGM
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -38,24 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1164535369
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 77508487
-    locked: 0
-  - name: Traps
-    uniqueID: 2754427073
-    locked: 0
-  - name: Ground
-    uniqueID: 4036874335
-    locked: 0
-  - name: Enemy
-    uniqueID: 2062109577
-    locked: 0
-  - name: Items
-    uniqueID: 4029277389
-    locked: 0
-  - name: Player
-    uniqueID: 1364458077
+  - name: Platform
+    uniqueID: 906291263
     locked: 0
