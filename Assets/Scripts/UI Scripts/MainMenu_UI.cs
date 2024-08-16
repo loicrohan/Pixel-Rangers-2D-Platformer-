@@ -10,6 +10,13 @@ public class MainMenu_UI : MonoBehaviour
     public GameObject menuCharacter;
     [SerializeField] private GameObject[] uiElements;
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 0;
+        Screen.SetResolution(Screen.width, Screen.height, FullScreenMode.FullScreenWindow, new RefreshRate() { numerator = 60, denominator = 1 });
+    }
+
     public void SwitchUI(GameObject uiToEnable)
     {
         foreach (GameObject ui in uiElements)
@@ -38,5 +45,11 @@ public class MainMenu_UI : MonoBehaviour
     {
         AudioManager.instance.PlaySFX(4);
         SceneManager.LoadScene(firstLevelName);
+    }
+
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+        print("Quitting Game");
     }
 }
