@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 0e3b57fe9497c4a4cb25a0414d430a2c
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196147
+  packageName: 8Bit Music Album - 051321
+  packageVersion: 1.0
+  assetPath: Assets/8Bit Music Album - 051321/2. Track 2.wav
+  uploadId: 435476
