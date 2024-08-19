@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 4.unity
     guid: 09edb88ff4b48de4a8bb69b6befcfc57
   - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 11780842cb2661d40b4b429c984b9412
+  - enabled: 1
     path: Assets/Scenes/zEnd Credits.unity
     guid: 47361a448f653c148bd2d12a3b2d701a
   m_configObjects: {}
