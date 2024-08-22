@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1MainMenu.unity
+    guid: dace8030d1b95c2439b0a0bb6bbdefc6
+  - enabled: 1
+    path: Assets/Scenes/Basic Tutorial Level.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 76111de0db12325458671c332ed8aab7
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: d73c62ea219dcef4cbd3c52c6882e044
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: e53d0392431852640bf7a0ed139dc766
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 09edb88ff4b48de4a8bb69b6befcfc57
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 11780842cb2661d40b4b429c984b9412
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: 15659544959bd894980a51ca3b16d29d
+  - enabled: 1
+    path: Assets/Scenes/Level 7.unity
+    guid: 9243de2ca0f59f748936be4b9b11a6cd
+  - enabled: 1
+    path: Assets/Scenes/Level 8.unity
+    guid: 7955345bd986fb04885ca2b51c2d37d0
+  - enabled: 1
+    path: Assets/Scenes/zEnd Credits.unity
+    guid: 47361a448f653c148bd2d12a3b2d701a
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
