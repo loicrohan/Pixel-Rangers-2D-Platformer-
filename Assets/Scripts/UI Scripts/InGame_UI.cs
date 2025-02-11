@@ -1,0 +1,80 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class InGame_UI : MonoBehaviour
+{
+    public static InGame_UI instance;
+
+    [SerializeField] private TextMeshProUGUI timerText;
+    [SerializeField] private TextMeshProUGUI fruitText;
+    [SerializeField] private GameObject gameOverObject;
+
+    [SerializeField] private GameObject pauseUI;
+    private bool isPaused;
+
+    private void Awake()
+    {
+        //DontDestroyOnLoad(this.gameObject);
+        instance = this;
+        gameOverObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+            PauseButton();
+
+        if (Input.GetKeyDown(KeyCode.Q))
+            GoToMainMenu();
+
+        if (Input.GetKeyDown(KeyCode.R))
+            GameManager.instance.LoadCurrentScene();
+
+    }
+
+    public void PauseButton()
+    {
+        if (isPaused)
+        {
+            isPaused = false;
+            Time.timeScale = 1;
+            pauseUI.SetActive(false);
+            AudioManager.instance.PlaySFX(4);
+
+        }
+        else
+        {
+            isPaused = true;
+            Time.timeScale = 0;
+            pauseUI.SetActive(true);
+            AudioManager.instance.PlaySFX(4);
+
+        }
+    }
+
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+        AudioManager.instance.PlaySFX(4);
+    }
+
+    public void UpdateFruitUI(int collectedFruits, int totalFruits)
+    {
+        fruitText.text = collectedFruits + "/" + totalFruits;
+    }
+
+    public void UpdateTimerUI(float timer)
+    {
+        this.timerText.text = timer.ToString("0") + "s";
+    }
+
+    public void GameOverUI()
+    {
+        gameOverObject.SetActive(true);
+        print("Game Over Restart Again");
+    }
+}
