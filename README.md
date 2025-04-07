@@ -5,4 +5,4 @@
 
  More Levels to be implemented
 
-Check this link : [https://loicrohan.itch.io/pixel-rangers](https://loicrohan.itch.io/pixel-rangers-extended-version)
+Check this link : (https://loicrohan.itch.io/pixel-rangers-extended-version)
