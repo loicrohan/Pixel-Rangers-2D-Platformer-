@@ -1,8 +1,6 @@
 # Pixel-Rangers--2D-Platformer-
- First 2D Platformer (In Development)
+ First 2D Platformer 
 
- Open this project with Unity Editor 2023 or higher otherwise you might encounter errors that will gatekeep you from working on it
-
- More Levels to be implemented
+Open this project with Unity Editor 2023 or higher otherwise you might encounter errors that will gatekeep you from working on it
 
 Check this link : (https://loicrohan.itch.io/pixel-rangers-extended-version)
